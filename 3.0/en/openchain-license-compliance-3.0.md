@@ -103,35 +103,35 @@ Note: The collection may include (but is not limited to) one or more of the foll
 
 ### 2.2 - identified licenses
 
-a set of open source software licenses identified as a result of following an appropriate method of identifying open source components from which the supplied software is may contain
+a set of open source software licenses identified as a result of following an appropriate method of examining open source components which the supplied software may contain
 
 ### 2.3 - OpenChain conformant
 
 a program that satisfies all the requirements of this document
 
-## 2.4 - open source
+### 2.4 - open source
 
 software subject to one or more licenses that meet the Open Source Definition published by the Open Source Initiative (see [opensource.org/osd](https://opensource.org/osd)) or the Free Software Definition published by the Free Software Foundation (see [gnu.org/philosophy/free-sw.html](https://www.gnu.org/philosophy/free-sw.html)) or similar license
 
-## 2.5 - program
+### 2.5 - program
 
 the set of policies, processes and personnel that comprise an organization's open source license compliance activities
 
-## 2.6 - program participants
+### 2.6 - program participants
 
 any organization employee or contractor that defines, contributes to or has responsibility for preparing supplied software
 
 Note: Depending on the organization, that may include (but is not limited to) software developers, release engineers, quality engineers, product marketing and product management.
 
-## 2.7 - software bill of materials (SBOM)
+### 2.7 - software bill of materials (SBOM)
 
-a “Software Bill of Materials” (SBOM) is a inventory for software, a list of ingredients that make up software components. An example is the (Software Package Data Exchange) SPDX specification created by the Linux Foundation's SPDX Project to exchange bill of materials for a given software package (see spdx.org). Regardless of the SBOM specification used, it should follow a complete profile for the intended use case.
+a “Software Bill of Materials” (SBOM) is a inventory for software, a list of ingredients that make up software components. Regardless of the SBOM specification used, it should follow a complete profile for the intended use case.
 
-## 2.8 - supplied software
+### 2.8 - supplied software
 
 software that an organization distributes to third parties (e.g., other legal entities, other organizations or individuals)
 
-## 2.9 - verification materials
+### 2.9 - verification materials
 
 materials that demonstrate that a given requirement of the specification is satisfied
 
@@ -161,12 +161,10 @@ To provide the flexibility to construct a program that best fits the scope of an
 
 A written open source policy shall exist that governs open source license compliance of the supplied software. The policy shall be internally communicated.
 
-[ADDITIONAL WORK NEED FOR A SUGGESTED placeholder addition to 3.1.2 for *legal* obligations - including legislation - to potentially be scoped, addressing a concern that senior management may need that at a product level, above the mechanism for license obligation per se, which *are* defined in 3.3.2. This may also be an opportunity to add other "A policy may include ...  [reference to legislation] ... etc. " bullet points to help guide but not require people on the policy front]
-
 #### Verification material(s):
 
 - 3.1.2.1 - A documented open source policy.
-- 3.1.2.2 - A documented procedure that makes program participants aware of the existence of the open source policy (e.g., via training, internal wiki, or other practical communication method).
+- 3.1.2.2 - A documented procedure that makes program participants aware of the existence of the open source policy (e.g., via training or other practical communication method).
 
 #### Rationale:
 
@@ -183,7 +181,8 @@ The organization shall ensure that the program participants are aware of:
 
 #### Verification material(s):
 
-- 3.1.3.1 - Documented evidence of assessed awareness for the program participants - which should include the program's objectives, one's contribution within the program, and implications of program non-conformance.
+- 3.1.3.1 - Documented evidence of training or education material for program participants which should include the open source policy, Program objectives, contribution within the Program, and implications of Program non-conformance.
+- 3.1.3.2 - Documented evidence of assessed awareness for the program participants which should include the open source policy, Program objectives, contribution within the Program, and implications of Program non-conformance.
 
 #### Rationale:
 
@@ -303,7 +302,7 @@ A process shall exist for creating the set of compliance artifacts for the suppl
 #### Verification material(s):
 
 - 3.4.1.1 - A documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.
-- 3.4.1.2 - A documented procedure for archiving copies of the compliance artifacts of the supplied software - where the archive is planned to exist for a reasonable period of time (Determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software; or as required by the identified licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed.
+- 3.4.1.2 - A documented procedure for archiving copies of the compliance artifacts of the supplied software - where the archive is planned to exist for a reasonable period of time (determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software, or as required by the identified licenses (whichever is longer). Records exist that demonstrate the procedure has been properly followed.
 
 #### Rationale:
 
